@@ -28,7 +28,7 @@ let updateUI = data => {
     let timeSrc = weather.IsDayTime ? 'images/day.svg' : 'images/night.svg';//ternary operator
     // appling the time src
     time.setAttribute('src', timeSrc);
-    let iconSrc = `/images/icons/${weather.WeatherIcon}.svg`;
+    let iconSrc = `images/icons/${weather.WeatherIcon}.svg`;
     icon.setAttribute('src', iconSrc);
 };
 
