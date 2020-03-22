@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Asynchronous code</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	
+
+	<div class="div container my-5 mx-auto">
+		<h1 class="text-muted text-center my-4">Weather App</h1>
+
+		<form class="change-location text-muted text-center my-4">
+			<label for="city">Enter a location to get weather info !!</label>
+			<input type="text"name="city"class="form-control p-4">
+		</form>
+		<div class="card shadow-lg rounded d-none">
+			<img src="https://via.placeholder.com/400x300"class="time card-img-top"alt="day or night">
+			<div class="icon bg-light mx-auto text-center">
+				<!-- our icon -->
+				<img src="">
+			</div>
+			<div class="text-muted text-center details">
+				<h2 class="my-3">City name</h2>
+				<div class="my-3">Weather condition</div>
+				<div class="my-3 display-4">
+					<span>temp</span>
+					<span>&deg;C</span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="scripts/forecast.js"></script>
+	<script src="scripts/app.js"></script>
+</body>
+</html>
